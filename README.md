@@ -1,0 +1,1 @@
+# Chess results clone
