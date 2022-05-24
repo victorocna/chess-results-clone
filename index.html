@@ -6,244 +6,222 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="main-wrapper">
-        <header class="header">
-            <h1>Pairing Results</h1>
+    <div class="w-full  h-auto">
+        <header class="w-full h-40 flex items-center justify-center bg-cover bg-center">
+            <h1 class="w-full bg-black bg-opacity-50 text-white text-4xl text-center uppercase italic font-bold">Pairing Results</h1>
         </header>
-        <main class="main-container">
-            <div class="pair-info">
-                <div class="pair-info__cell bo">
-                    <p>Bo.</p>
-                    <p>1</p>
+        <main class="w-full">
+            <div class="w-full h-48 mb-4 flex flex-col shadow-md">
+                <div class="bo w-1/2 h-[15%] flex items-center bg-gradient-to-r from-neutral-200 to-neutral-300 border-neutral-300 border-[1px] border-b-0">
+                    <p class="ml-2 italic">Board No.</p>
+                    <p class="ml-4 text-xl font-bold">1</p>
                 </div>
-                <div class="pair-info__cell name-1">
-                    <a href="#">Vladimir Baetel</a>
+                <div class="w-full h-[42.5%] px-1 flex bg-neutral-200 border-[1px] border-neutral-300">
+                    <div class="w-[10%] flex items-center justify-center">
+                        <div class="w-8 h-8 rounded-full border-2 border-white bg-gradient-to-r from-white to-gray-200"></div>
+                    </div>
+                    <div class="w-4/5">
+                        <div class="h-1/2 flex items-center  border-b-[1px] border-neutral-300">
+                            <p class="text-2xl ml-2">VICTOR OCNARESCU</p>
+                        </div>
+                        <div class="h-1/2 flex">
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Start No.</p>
+                                <p>43</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Rating</p>
+                                <p>1324</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic"></p>
+                                <p>n/a</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Points</p>
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[10%] flex items-center justify-center">
+                        <p class="text-5xl">1</p>
+                    </div>
                 </div>
-                <div class="pair-info__cell no-1">
-                    <p>No.</p>
-                    <p>43</p>
-                </div>
-                <div class="pair-info__cell rtg-1">
-                    <p>Rtg.</p>
-                    <p>1324</p>
-                </div>
-                <div class="pair-info__cell n-a-1">
-                    <p>n/a</p>
-                </div>
-                <div class="pair-info__cell pts-1">
-                    <p>Pts.</p>
-                    <p>0</p>
-                </div>
-                <div class="pair-info__cell result">
-                    <div class="result__score 1"><p>1</p></div>
-                    <div class="result__score 2"><p>0</p></div>
-                </div>
-                <div class="pair-info__cell name-2">
-                    <a href="#">Victor</a>
-                </div>
-                <div class="pair-info__cell no-2">
-                    <p>No.</p>
-                    <p>75</p>
-                </div>
-                <div class="pair-info__cell rtg-2">
-                    <p>Rtg.</p>
-                    <p>6000</p>
-                </div>
-                <div class="pair-info__cell n-a-2">
-                    <p>n/a</p>
-                </div>
-                <div class="pair-info__cell pts-2">
-                    <p>Pts.</p>
-                    <p>0</p>
-                </div>
-            </div>
-            <div class="pair-info">
-                <div class="pair-info__cell bo">
-                    <p>Bo.</p>
-                    <p>1</p>
-                </div>
-                <div class="pair-info__cell name-1">
-                    <a href="#">Vladimir Baetel</a>
-                </div>
-                <div class="pair-info__cell no-1">
-                    <p>No.</p>
-                    <p>43</p>
-                </div>
-                <div class="pair-info__cell rtg-1">
-                    <p>Rtg.</p>
-                    <p>1324</p>
-                </div>
-                <div class="pair-info__cell n-a-1">
-                    <p>n/a</p>
-                </div>
-                <div class="pair-info__cell pts-1">
-                    <p>Pts.</p>
-                    <p>0</p>
-                </div>
-                <div class="pair-info__cell result">
-                    <div class="result__score 1"><p>1</p></div>
-                    <div class="result__score 2"><p>0</p></div>
-                </div>
-                <div class="pair-info__cell name-2">
-                    <a href="#">Victor</a>
-                </div>
-                <div class="pair-info__cell no-2">
-                    <p>No.</p>
-                    <p>75</p>
-                </div>
-                <div class="pair-info__cell rtg-2">
-                    <p>Rtg.</p>
-                    <p>6000</p>
-                </div>
-                <div class="pair-info__cell n-a-2">
-                    <p>n/a</p>
-                </div>
-                <div class="pair-info__cell pts-2">
-                    <p>Pts.</p>
-                    <p>0</p>
+                <div class="w-full h-[42.5%] px-1 flex bg-neutral-200 border-[1px] border-neutral-300">
+                    <div class="w-[10%] flex items-center justify-center">
+                        <div class="w-8 h-8 rounded-full border-2 border-white bg-gradient-to-r from-black to-gray-700"></div>
+                    </div>
+                    <div class="w-4/5">
+                        <div class="h-1/2 flex items-center  border-b-[1px] border-neutral-300">
+                            <p class="text-2xl ml-2">BAETEL VLADIMIR</p>
+                        </div>
+                        <div class="h-1/2 flex">
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Start No.</p>
+                                <p>25</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Rating</p>
+                                <p>4321</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic"></p>
+                                <p>n/a</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Points</p>
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[10%] flex items-center justify-center">
+                        <p class="text-5xl">0</p>
+                    </div>
                 </div>
             </div>
-            <div class="pair-info">
-                <div class="pair-info__cell bo">
-                    <p>Bo.</p>
-                    <p>1</p>
+            <div class="w-full h-48 mb-4 flex flex-col shadow-md">
+                <div class="bo w-1/2 h-[15%] flex items-center bg-gradient-to-r from-neutral-200 to-neutral-300 border-neutral-300 border-[1px] border-b-0">
+                    <p class="ml-2 italic">Board No.</p>
+                    <p class="ml-4 text-xl font-bold">1</p>
                 </div>
-                <div class="pair-info__cell name-1">
-                    <a href="#">Vladimir Baetel</a>
+                <div class="w-full h-[42.5%] px-1 flex bg-neutral-200 border-[1px] border-neutral-300">
+                    <div class="w-[10%] flex items-center justify-center">
+                        <div class="w-8 h-8 rounded-full border-2 border-white bg-gradient-to-r from-white to-gray-200"></div>
+                    </div>
+                    <div class="w-4/5">
+                        <div class="h-1/2 flex items-center  border-b-[1px] border-neutral-300">
+                            <p class="text-2xl ml-2">VICTOR OCNARESCU</p>
+                        </div>
+                        <div class="h-1/2 flex">
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Start No.</p>
+                                <p>43</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Rating</p>
+                                <p>1324</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic"></p>
+                                <p>n/a</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Points</p>
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[10%] flex items-center justify-center">
+                        <p class="text-5xl">1</p>
+                    </div>
                 </div>
-                <div class="pair-info__cell no-1">
-                    <p>No.</p>
-                    <p>43</p>
-                </div>
-                <div class="pair-info__cell rtg-1">
-                    <p>Rtg.</p>
-                    <p>1324</p>
-                </div>
-                <div class="pair-info__cell n-a-1">
-                    <p>n/a</p>
-                </div>
-                <div class="pair-info__cell pts-1">
-                    <p>Pts.</p>
-                    <p>0</p>
-                </div>
-                <div class="pair-info__cell result">
-                    <div class="result__score 1"><p>1</p></div>
-                    <div class="result__score 2"><p>0</p></div>
-                </div>
-                <div class="pair-info__cell name-2">
-                    <a href="#">Victor</a>
-                </div>
-                <div class="pair-info__cell no-2">
-                    <p>No.</p>
-                    <p>75</p>
-                </div>
-                <div class="pair-info__cell rtg-2">
-                    <p>Rtg.</p>
-                    <p>6000</p>
-                </div>
-                <div class="pair-info__cell n-a-2">
-                    <p>n/a</p>
-                </div>
-                <div class="pair-info__cell pts-2">
-                    <p>Pts.</p>
-                    <p>0</p>
-                </div>
-            </div>
-            <div class="pair-info">
-                <div class="pair-info__cell bo">
-                    <p>Bo.</p>
-                    <p>1</p>
-                </div>
-                <div class="pair-info__cell name-1">
-                    <a href="#">Vladimir Baetel</a>
-                </div>
-                <div class="pair-info__cell no-1">
-                    <p>No.</p>
-                    <p>43</p>
-                </div>
-                <div class="pair-info__cell rtg-1">
-                    <p>Rtg.</p>
-                    <p>1324</p>
-                </div>
-                <div class="pair-info__cell n-a-1">
-                    <p>n/a</p>
-                </div>
-                <div class="pair-info__cell pts-1">
-                    <p>Pts.</p>
-                    <p>0</p>
-                </div>
-                <div class="pair-info__cell result">
-                    <div class="result__score 1"><p>1</p></div>
-                    <div class="result__score 2"><p>0</p></div>
-                </div>
-                <div class="pair-info__cell name-2">
-                    <a href="#">Victor</a>
-                </div>
-                <div class="pair-info__cell no-2">
-                    <p>No.</p>
-                    <p>75</p>
-                </div>
-                <div class="pair-info__cell rtg-2">
-                    <p>Rtg.</p>
-                    <p>6000</p>
-                </div>
-                <div class="pair-info__cell n-a-2">
-                    <p>n/a</p>
-                </div>
-                <div class="pair-info__cell pts-2">
-                    <p>Pts.</p>
-                    <p>0</p>
+                <div class="w-full h-[42.5%] px-1 flex bg-neutral-200 border-[1px] border-neutral-300">
+                    <div class="w-[10%] flex items-center justify-center">
+                        <div class="w-8 h-8 rounded-full border-2 border-white bg-gradient-to-r from-black to-gray-700"></div>
+                    </div>
+                    <div class="w-4/5">
+                        <div class="h-1/2 flex items-center  border-b-[1px] border-neutral-300">
+                            <p class="text-2xl ml-2">BAETEL VLADIMIR</p>
+                        </div>
+                        <div class="h-1/2 flex">
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Start No.</p>
+                                <p>25</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Rating</p>
+                                <p>4321</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic"></p>
+                                <p>n/a</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Points</p>
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[10%] flex items-center justify-center">
+                        <p class="text-5xl">0</p>
+                    </div>
                 </div>
             </div>
-            <div class="pair-info">
-                <div class="pair-info__cell bo">
-                    <p>Bo.</p>
-                    <p>1</p>
+            <div class="w-full h-48 mb-4 flex flex-col shadow-md">
+                <div class="bo w-1/2 h-[15%] flex items-center bg-gradient-to-r from-neutral-200 to-neutral-300 border-neutral-300 border-[1px] border-b-0">
+                    <p class="ml-2 italic">Board No.</p>
+                    <p class="ml-4 text-xl font-bold">1</p>
                 </div>
-                <div class="pair-info__cell name-1">
-                    <a href="#">Vladimir Baetel</a>
+                <div class="w-full h-[42.5%] px-1 flex bg-neutral-200 border-[1px] border-neutral-300">
+                    <div class="w-[10%] flex items-center justify-center">
+                        <div class="w-8 h-8 rounded-full border-2 border-white bg-gradient-to-r from-white to-gray-200"></div>
+                    </div>
+                    <div class="w-4/5">
+                        <div class="h-1/2 flex items-center  border-b-[1px] border-neutral-300">
+                            <p class="text-2xl ml-2">VICTOR OCNARESCU</p>
+                        </div>
+                        <div class="h-1/2 flex">
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Start No.</p>
+                                <p>43</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Rating</p>
+                                <p>1324</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic"></p>
+                                <p>n/a</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Points</p>
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[10%] flex items-center justify-center">
+                        <p class="text-5xl">1</p>
+                    </div>
                 </div>
-                <div class="pair-info__cell no-1">
-                    <p>No.</p>
-                    <p>43</p>
-                </div>
-                <div class="pair-info__cell rtg-1">
-                    <p>Rtg.</p>
-                    <p>1324</p>
-                </div>
-                <div class="pair-info__cell n-a-1">
-                    <p>n/a</p>
-                </div>
-                <div class="pair-info__cell pts-1">
-                    <p>Pts.</p>
-                    <p>0</p>
-                </div>
-                <div class="pair-info__cell result">
-                    <div class="result__score 1"><p>1</p></div>
-                    <div class="result__score 2"><p>0</p></div>
-                </div>
-                <div class="pair-info__cell name-2">
-                    <a href="#">Victor</a>
-                </div>
-                <div class="pair-info__cell no-2">
-                    <p>No.</p>
-                    <p>75</p>
-                </div>
-                <div class="pair-info__cell rtg-2">
-                    <p>Rtg.</p>
-                    <p>6000</p>
-                </div>
-                <div class="pair-info__cell n-a-2">
-                    <p>n/a</p>
-                </div>
-                <div class="pair-info__cell pts-2">
-                    <p>Pts.</p>
-                    <p>0</p>
+                <div class="w-full h-[42.5%] px-1 flex bg-neutral-200 border-[1px] border-neutral-300">
+                    <div class="w-[10%] flex items-center justify-center">
+                        <div class="w-8 h-8 rounded-full border-2 border-white bg-gradient-to-r from-black to-gray-700"></div>
+                    </div>
+                    <div class="w-4/5">
+                        <div class="h-1/2 flex items-center  border-b-[1px] border-neutral-300">
+                            <p class="text-2xl ml-2">BAETEL VLADIMIR</p>
+                        </div>
+                        <div class="h-1/2 flex">
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Start No.</p>
+                                <p>25</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Rating</p>
+                                <p>4321</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic"></p>
+                                <p>n/a</p>
+                            </div>
+                            <div class="w-full flex flex-col items-center justify-center">
+                                <p class="text-xs italic">Points</p>
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[10%] flex items-center justify-center">
+                        <p class="text-5xl">0</p>
+                    </div>
                 </div>
             </div>
         </main>
     </div>
+    <footer class="w-full">
+        <p class="text-2xl">This is a footer</p>
+    </footer>
 </body>
 </html>
