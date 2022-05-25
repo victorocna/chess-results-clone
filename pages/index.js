@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Player_Pair from "../components/Player_Pair";
 
@@ -17,9 +18,7 @@ const Page = () => {
         <Player_Pair />
         <Player_Pair />
       </main>
-      <footer className="w-full bg-gradient-to-t from-sky-900 to-sky-600 flex items-center justify-center">
-        <p className="py-2 text-2xl text-white italic">footer</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
