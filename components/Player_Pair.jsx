@@ -2,8 +2,8 @@ import React from "react";
 
 const Player_Pair = () => {
     return (
-      <div className="w-full mb-1 flex">
-          <div className="w-1/12 flex items-center justify-center bg-gradient-to-r from-sky-200 to-sky-100 border-r border-white rounded-l-md">
+      <div className="w-full mb-1 flex shadow">
+          <div className="w-1/12 flex items-center justify-center bg-gradient-to-r from-sky-200 to-sky-100 border-r border-white">
             <p className="text-2xl">4</p>
           </div>
           <div className="w-10/12 flex flex-col bg-sky-100">
@@ -22,7 +22,7 @@ const Player_Pair = () => {
               <p className="ml-2 text-xs text-gray-700">(1234)</p>
             </div>
           </div>
-          <div className="w-1/12 bg-gradient-to-l from-sky-200 to-sky-100 border-l border-white rounded-r-md">
+          <div className="w-1/12 bg-gradient-to-l from-sky-200 to-sky-100 border-l border-white">
             <div className="flex items-center justify-center">
               <p className="text-2xl leading-6">1</p>
             </div>
