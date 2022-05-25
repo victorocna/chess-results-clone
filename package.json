@@ -1,0 +1,29 @@
+{
+  "name": "chess-results-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8080",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "export": "next build && next export",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorocna/chess-results-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorocna/chess-results-clone/issues"
+  },
+  "homepage": "https://github.com/victorocna/chess-results-clone#readme",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
