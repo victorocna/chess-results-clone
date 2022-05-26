@@ -8,15 +8,8 @@ const Page = () => {
     <div>
       <Header />
       <main className="w-full max-w-2xl mx-auto mt-1">
-        <Player_Pair />
-        <Player_Pair />
-        <Player_Pair />
-        <Player_Pair />
-        <Player_Pair />
-        <Player_Pair />
-        <Player_Pair />
-        <Player_Pair />
-        <Player_Pair />
+        <Player_Pair white="Victor" black="Vladimir" />
+        <Player_Pair white="Tiberiu" black="Pose" />
       </main>
       <Footer />
     </div>
