@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        tiny: "0.6rem",
+        tiny: "0.675rem",
       },
       fontFamily: {
         mono: "'Roboto Mono', monospace",

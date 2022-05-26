@@ -8,7 +8,7 @@ const Header = () => {
           <img src="https://portal.frsah.ro/images/logo-frsah-transparent.png" alt="" className="h-[3rem]" />
         </div>
         <div className="w-3/5 py-6 flex items-center justify-center">
-          <h1 className="text-xl">Federația Română de Șah</h1>
+          <h1 className="text-lg">Federația Română de Șah</h1>
         </div>
         <div className="w-1/5 flex items-center justify-center">
           ☰
@@ -20,7 +20,7 @@ const Header = () => {
       </h1>
 
       <div className="w-full py-2 flex flex-col items-center justify-center bg-default bg-opacity-50">
-        <h2 className="text-2xl text-white">Tournament Name</h2>
+        <h2 className="text-2xl text-white">Nume Turneu</h2>
         <p className="text-white italic">25/05/2022 | Round: 420</p>
       </div>
     </header>
