@@ -3,10 +3,13 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        tiny: "0.5rem",
+        tiny: "0.6rem",
       },
       fontFamily: {
         mono: "'Roboto Mono', monospace",
+      },
+      colors: {
+        default: "rgb(15, 76, 129)"
       },
     },
   },
