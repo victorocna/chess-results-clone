@@ -1,0 +1,74 @@
+[
+  {
+    "board": "1",
+    "result": "1-0",
+    "white": {
+      "name": "DEAC, BOGDAN-DANIEL",
+      "rank": "1",
+      "civ": "2679",
+      "points": "2½",
+      "title": "GM"
+    },
+    "black": {
+      "name": "CHIRILA, IOAN-CRISTIAN",
+      "rank": "2",
+      "civ": "2536",
+      "points": "3",
+      "title": "GM"
+    }
+  },
+  {
+    "board": "2",
+    "result": "½-½",
+    "white": {
+      "name": "SZABO, GERGELY-ANDRAS-GYULA",
+      "rank": "11",
+      "civ": "2544",
+      "points": "2",
+      "title": "GM"
+    },
+    "black": {
+      "name": "POSEDARU, BOGDAN",
+      "rank": "4",
+      "civ": "2470",
+      "points": "2",
+      "title": "FM"
+    }
+  },
+  {
+    "board": "3",
+    "result": "½-½",
+    "white": {
+      "name": "ANTON, TEODOR",
+      "rank": "6",
+      "civ": "2457",
+      "points": "2",
+      "title": "IM"
+    },
+    "black": {
+      "name": "BULMAGA, IRINA",
+      "rank": "7",
+      "civ": "2390",
+      "points": "2",
+      "title": "wGM"
+    }
+  },
+  {
+    "board": "4",
+    "result": "0-1",
+    "white": {
+      "name": "GRIGORE, NICOLAE-PETRE",
+      "rank": "12",
+      "civ": "2400",
+      "points": "1½",
+      "title": "IM"
+    },
+    "black": {
+      "name": "CETERAS, MARIUS-NICOLAE",
+      "rank": "19",
+      "civ": "2299",
+      "points": "1½",
+      "title": "FM"
+    }
+  }
+]
