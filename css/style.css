@@ -13,9 +13,9 @@ header {
     }
 }
 
-.bg-stripe > :nth-of-type(odd) {
+.bg-stripe > :nth-of-type(even) {
     @apply bg-white;
   }
-.bg-stripe > :nth-of-type(even) {
+.bg-stripe > :nth-of-type(odd) {
     @apply bg-sky-100;
   }
